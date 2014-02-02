@@ -12,7 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# CPU
+TARGET_ARCH := arm
+TARGET_CPU_ABI := armeabi
+TARGET_CPU_ABI2 := armeabi-v6l
+TARGET_CPU_VARIANT := arm11
+TARGET_ARCH_VARIANT := armv6-vfp
+
+# inherit from the proprietary version
 -include device/zte/common/BoardConfigCommon.mk
+
+TARGET_NO_BOOTLOADER := true
+TARGET_BOARD_PLATFORM := unknown
+TARGET_BOOTLOADER_BOARD_NAME := blade2
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_BCM := true
