@@ -10,10 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/zte/blade2/device_blade2.mk)
+$(call inherit-product, device/zte/blade2_f/device_blade2.mk)
 
-PRODUCT_NAME := cm_blade2
-PRODUCT_RELEASE_NAME := blade2
+PRODUCT_NAME := cm_blade2_f
+PRODUCT_RELEASE_NAME := blade2_f
 
 -include vendor/cm/config/common_versions.mk
 
