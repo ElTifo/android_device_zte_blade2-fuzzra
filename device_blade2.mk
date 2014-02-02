@@ -36,36 +36,36 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_COPY_FILES += \
-    device/zte/blade2/prebuilt/init.blade2.rc:root/init.blade2.rc \
-    device/zte/blade2/prebuilt/init.blade2.usb.rc:root/init.blade2.usb.rc \
-    device/zte/blade2/prebuilt/ueventd.blade2.rc:root/ueventd.blade2.rc \
-    device/zte/blade2/prebuilt/usbconfig:root/sbin/usbconfig
+    device/zte/blade2_f/prebuilt/init.blade2.rc:root/init.blade2.rc \
+    device/zte/blade2_f/prebuilt/init.blade2.usb.rc:root/init.blade2.usb.rc \
+    device/zte/blade2_f/prebuilt/ueventd.blade2.rc:root/ueventd.blade2.rc \
+    device/zte/blade2_f/prebuilt/usbconfig:root/sbin/usbconfig
 
 # Keypad files
 PRODUCT_COPY_FILES += \
-    device/zte/blade2/prebuilt/usr/keylayout/blade2_keypad.kl:system/usr/keylayout/blade2_keypad.kl \
-    device/zte/blade2/prebuilt/usr/idc/atmel-touchscreen.idc:system/usr/idc/atmel-touchscreen.idc \
-    device/zte/blade2/prebuilt/usr/keylayout/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
-    device/zte/blade2/prebuilt/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
-    device/zte/blade2/prebuilt/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl
+    device/zte/blade2_f/prebuilt/usr/keylayout/blade2_keypad.kl:system/usr/keylayout/blade2_keypad.kl \
+    device/zte/blade2_f/prebuilt/usr/idc/atmel-touchscreen.idc:system/usr/idc/atmel-touchscreen.idc \
+    device/zte/blade2_f/prebuilt/usr/keylayout/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
+    device/zte/blade2_f/prebuilt/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
+    device/zte/blade2_f/prebuilt/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl
 
 # EGL and gralloc module
 PRODUCT_COPY_FILES += \
-    device/zte/blade2/prebuilt/lib/hw/gralloc.blade2.so:system/lib/hw/gralloc.blade2.so \
-    device/zte/blade2/prebuilt/lib/hw/copybit.blade2.so:system/lib/hw/copybit.blade2.so
+    device/zte/blade2_f/prebuilt/lib/hw/gralloc.blade2.so:system/lib/hw/gralloc.blade2.so \
+    device/zte/blade2_f/prebuilt/lib/hw/copybit.blade2.so:system/lib/hw/copybit.blade2.so
 
 # Kernel Modules
 PRODUCT_COPY_FILES += \
-    device/zte/blade2/prebuilt/lib/modules/dhd.ko:system/lib/modules/dhd.ko
+    device/zte/blade2_f/prebuilt/lib/modules/dhd.ko:system/lib/modules/dhd.ko
 
 # WiFi
 PRODUCT_COPY_FILES += \
-    device/zte/blade2/prebuilt/etc/fw_4330b1.bin:system/etc/fw_4330b1.bin \
-    device/zte/blade2/prebuilt/etc/fw_4330b2.bin:system/etc/fw_4330b2.bin \
-    device/zte/blade2/prebuilt/etc/fw_4330_b1_apsta.bin:system/etc/fw_4330_b1_apsta.bin \
-    device/zte/blade2/prebuilt/etc/fw_4330_b2_apsta.bin:system/etc/fw_4330_b2_apsta.bin \
-    device/zte/blade2/prebuilt/etc/nv_4330b1.txt:system/etc/nv_4330b1.txt \
-    device/zte/blade2/prebuilt/etc/nv_4330b1.txt:system/etc/nv_4330b2.txt \
-    device/zte/blade2/prebuilt/etc/init.bt.sh:system/etc/init.bt.sh \
-    device/zte/blade2/prebuilt/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
-    device/zte/blade2/prebuilt/etc/init.wlanprop.sh:system/etc/init.wlanprop.sh
+    device/zte/blade2_f/prebuilt/etc/fw_4330b1.bin:system/etc/fw_4330b1.bin \
+    device/zte/blade2_f/prebuilt/etc/fw_4330b2.bin:system/etc/fw_4330b2.bin \
+    device/zte/blade2_f/prebuilt/etc/fw_4330_b1_apsta.bin:system/etc/fw_4330_b1_apsta.bin \
+    device/zte/blade2_f/prebuilt/etc/fw_4330_b2_apsta.bin:system/etc/fw_4330_b2_apsta.bin \
+    device/zte/blade2_f/prebuilt/etc/nv_4330b1.txt:system/etc/nv_4330b1.txt \
+    device/zte/blade2_f/prebuilt/etc/nv_4330b1.txt:system/etc/nv_4330b2.txt \
+    device/zte/blade2_f/prebuilt/etc/init.bt.sh:system/etc/init.bt.sh \
+    device/zte/blade2_f/prebuilt/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
+    device/zte/blade2_f/prebuilt/etc/init.wlanprop.sh:system/etc/init.wlanprop.sh
