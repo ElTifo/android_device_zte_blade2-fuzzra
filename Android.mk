@@ -17,7 +17,7 @@ LOCAL_PATH := $(call my-dir)
 subdir_makefiles := \
         device/zte/common/ZTEParts/Android.mk
 #include $(subdir_makefiles)
-include $(call all-makefiles-under,device/zte/blade2)
+include $(call all-makefiles-under,device/zte/blade2_f)
 endif
 
 
