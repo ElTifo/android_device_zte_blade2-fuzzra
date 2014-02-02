@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/zte/blade2/prebuilt
+LOCAL_PATH := device/zte/blade2_f/prebuilt
 
 #
 # Kernel
