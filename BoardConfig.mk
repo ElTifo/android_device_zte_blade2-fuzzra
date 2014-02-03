@@ -30,8 +30,8 @@ TARGET_BOOTLOADER_BOARD_NAME := blade2
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Recovery
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := device/zte/blade2_f/recovery/recovery_keys.c
-BOARD_CUSTOM_GRAPHICS := device/zte/blade2_f/recovery/graphics.c
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/zte/blade2/recovery/recovery_keys.c
+BOARD_CUSTOM_GRAPHICS := ../../../device/zte/blade2/recovery/graphics.c
 
 # Board related defines
 TARGET_BOOTLOADER_BOARD_NAME := blade2
